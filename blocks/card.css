@@ -17,13 +17,14 @@
 }
 
 .card__title{
-  font-family: "Poppins-Medium", 'Times New Roman', Times, serif;
+  font-family: "Poppins", 'Times New Roman', Times, serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  max-width: 353px;
 }
 
 .card__like-btn {
@@ -48,5 +49,6 @@
   .card__title{
     font-size: 16px;
     line-height: 1;
+    max-width: 235px;
   }
 }
