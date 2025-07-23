@@ -1,9 +1,11 @@
 # Spots
- 
+
 ### Overlays
 
 # Description
+
 # Tech Stack
+
 # Deployment
 
 An image sharing site.
