@@ -102,6 +102,27 @@
 
 }
 
+.modal__close-btn:hover{
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.modal__input:hover{
+  border: 1px solid rgba(33, 33, 33, 1);
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.modal__input:active{
+  border: solid 1px rgba(33, 33, 33, 0.4);
+  border-radius: 8px;
+}
+
+.modal__submit-btn:hover{
+  cursor: pointer;
+  opacity: 80%;
+}
+
 @media screen and (max-width: 627px) {
  .modal__container{
   box-sizing: content-box ;
