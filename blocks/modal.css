@@ -12,6 +12,18 @@
   padding: 10px;
 }
 
+.modal > ul {
+  visibility:hidden;
+  opacity:0
+}
+
+.modal_is-opened:hover > ul {
+  visibility:visible;
+  opacity:1;
+  transition-delay:0s;gu
+  transition:visibility 0s linear 0.5s,opacity 0.5s linear;
+}
+
 .modal_is-opened {
   visibility: visible;
 }
