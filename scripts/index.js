@@ -18,8 +18,7 @@ const initalCards = [{ name: "Val Thorens",
 {
   name: "Mountain house",
   link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/6-photo-by-moritz-feldmann-from-pexels.jpg",
-},
-];
+}];
 
 const editProfileBtn = document.querySelector(".profile__edit-btn");
 const editProfileModal = document.querySelector("#edit-profile-modal");
