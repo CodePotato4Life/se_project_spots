@@ -49,17 +49,17 @@ const newPostImageEl = document.querySelector(".card__image");
 const newPostCaptionEl = document.querySelector(".card__title");
 
 function openModal(modal) {
-  modal.classList.add ("modal_is-opened");
+  modal.classList.add("modal_is-opened");
 }
 
 function closeModal(modal) {
-  modal.classList.remove ("modal_is-opened");
-  
+  modal.classList.remove("modal_is-opened");
+
 }
 editProfileBtn.addEventListener("click", function () {
   editProfileNameInput.value = profileNameEl.textContent;
   editProfileDescriptionInput.value = profileDescriptionEl.textContent;
-  openedModal(editProfileModal);
+  openModal(editProfileModal);
 });
 
 editProfileCloseBtn.addEventListener("click", function () {
@@ -67,11 +67,11 @@ editProfileCloseBtn.addEventListener("click", function () {
 });
 
 newPostBtn.addEventListener("click", function () {
-  openedModal(newPostModal);
+  openModal(newPostModal);
 });
 
 newPostCloseBtn.addEventListener("click", function () {
-  closeModal(newPostModal); 
+  closeModal(newPostModal);
 });
 
 function handleEditProfileSubmit(evt) {
