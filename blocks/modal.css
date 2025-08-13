@@ -14,6 +14,10 @@
   transition: visibility 0.5s linear 0.5s, opacity 0.5s linear;
 }
 
+.modal_type_preview {
+ padding:  0 14px;
+}
+
 .modal_is-opened {
   visibility: visible;
   opacity: 1;
@@ -39,8 +43,24 @@
   height: 40px;
   background-image: url(../images/X.svg);
   background-color: transparent;
-  opacity: 40%;
+  opacity: .4;
   border: none;
+}
+
+.modal__close-btn_type_preview {
+  top: 0;
+  right: -52.5px;
+  background: transparent url(../images/white-x.svg);
+  opacity: 1;
+  border: none;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+}
+
+.modal__close-btn_type_preview:hover {
+  opacity: 0.4;
+  cursor: pointer;
 }
 
 .modal__title {
@@ -128,10 +148,39 @@
   opacity: 80%;
 }
 
+.modal__image-container{
+  position: relative;
+}
+
+.modal__image {
+  max-width: 80vw;
+  max-height: 80vh;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  border-radius: 8px;
+}
+
+.modal__caption {
+  color: rgba(255, 255, 255, 1);
+  background: rgba(33, 33, 33, 1);
+  font-family: "Poppins", 'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 4px 8px 4px;
+  margin: 12px 0 0;
+  border-radius: 8px;
+  width: fit-content;
+  border: none;
+;
+}
+
+
 @media screen and (max-width: 627px) {
   .modal__container {
     padding: 22px 12px 12px;
   }
+
 
   .modal__title {
     font-size: 20px;
@@ -159,4 +208,16 @@
   .modal__input::placeholder {
     font-size: 16px;
   }
+}
+
+@media screen and (max-width:627px) {
+   .modal__close-btn_type_preview {
+    top: -48px;
+    right: 0;
+  }
+ 
+  .modal__image {
+    max-width: unset;
+  }
+
 }
