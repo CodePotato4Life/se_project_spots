@@ -113,7 +113,7 @@ editProfileCloseBtn.addEventListener("click", function () {
   closeModal(editProfileModal);
 });
 
-previewModalCloseBtn.addEventListener("clicked", function () {
+previewModalCloseBtn.addEventListener("click", function () {
   closeModal(previewModal);
 });
 
