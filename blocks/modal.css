@@ -15,7 +15,7 @@
 }
 
 .modal_type_preview {
- padding:  0 14px;
+  padding: 0 14px;
 }
 
 .modal_is-opened {
@@ -43,7 +43,7 @@
   height: 40px;
   background-image: url(../images/X.svg);
   background-color: transparent;
-  opacity: .4;
+  opacity: 0.4;
   border: none;
 }
 
@@ -52,10 +52,6 @@
   right: -52.5px;
   background: transparent url(../images/white-x.svg);
   opacity: 1;
-  border: none;
-  width: 40px;
-  height: 40px;
-  margin: 0;
 }
 
 .modal__close-btn_type_preview:hover {
@@ -142,7 +138,7 @@
   opacity: 80%;
 }
 
-.modal__image-container{
+.modal__image-container {
   position: relative;
 }
 
@@ -158,7 +154,7 @@
 .modal__caption {
   color: rgba(255, 255, 255, 1);
   background: rgba(33, 33, 33, 1);
-  font-family: "Poppins", 'Times New Roman', Times, serif;
+  font-family: "Poppins", "Times New Roman", Times, serif;
   font-size: 20px;
   line-height: 1.2;
   padding: 4px 8px 4px;
@@ -168,12 +164,10 @@
   border: none;
 }
 
-
 @media screen and (max-width: 627px) {
   .modal__container {
     padding: 22px 12px 12px;
   }
-
 
   .modal__title {
     font-size: 20px;
@@ -194,6 +188,11 @@
     right: 12px;
   }
 
+  .modal__close-btn_type_preview {
+    top: -48px;
+    right: 0;
+  }
+
   .modal__submit-btn {
     max-width: none;
   }
@@ -203,14 +202,8 @@
   }
 }
 
-@media screen and (max-width:627px) {
-   .modal__close-btn_type_preview {
-    top: -48px;
-    right: 0;
-  }
-
+@media screen and (max-width: 627px) {
   .modal__image {
     max-width: unset;
   }
-
 }

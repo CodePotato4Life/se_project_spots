@@ -1,6 +1,6 @@
-.card{
+.card {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  max-width:413px;
+  max-width: 413px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -14,15 +14,15 @@
   border-radius: 8px;
 }
 
-.card__content{
+.card__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0;
+  margin: 12px 0;
 }
 
-.card__title{
-  font-family: "Poppins", 'Times New Roman', Times, serif;
+.card__title {
+  font-family: "Poppins", "Times New Roman", Times, serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -49,7 +49,7 @@
   height: 32px;
   position: absolute;
   top: 10px;
-  right:  10px;
+  right: 10px;
   border: none;
   background: transparent url(../images/delete.svg) center;
 }
@@ -59,14 +59,14 @@
   cursor: pointer;
 }
 
-.card__like-btn:hover{
+.card__like-btn:hover {
   cursor: pointer;
   opacity: 1;
 }
 
 .card__like-btn_active {
   background-image: url(../images/like-active.svg);
-  height:20px;
+  height: 20px;
   width: 23px;
   border: none;
   opacity: 1;
@@ -74,17 +74,16 @@
 }
 
 .card__like-btn_active:hover {
- opacity: 0.5;
- cursor: pointer;
+  opacity: 0.5;
+  cursor: pointer;
 }
 
-
-@media screen and (max-width:627px) {
-  .card__image{
+@media screen and (max-width: 627px) {
+  .card__image {
     height: 288px;
     width: 100%;
   }
-  .card__title{
+  .card__title {
     font-size: 16px;
     line-height: 1;
     max-width: 235px;
