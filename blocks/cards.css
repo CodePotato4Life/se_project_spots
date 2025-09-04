@@ -5,6 +5,7 @@
 .cards__list {
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
   list-style-type: none;
+  padding-left: 0;
   padding-bottom: 40px;
   margin: 0;
   display: grid;

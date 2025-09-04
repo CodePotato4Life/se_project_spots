@@ -135,7 +135,6 @@ border: 1px solid rgba(255, 0, 0, 0.6);
   font-weight: 500;
   margin: 8px 0 0;
   width: fit-content;
-  height: 36px;
 }
 
 .modal__close-btn:hover {
