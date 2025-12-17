@@ -11,11 +11,50 @@
   align-items: flex-start;
 }
 
-.profile__avatar {
-  margin-right: 20px;
+.profile__avatar-btn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  visibility: hidden;
+  border: none;
   border-radius: 8px;
+  background: rgba(33, 33, 33, 0.7);
+  transform: scale(0.8);
+  transition: transform 0.25s linear;
+}
+
+.profile__avatar-container:hover .profile__avatar-btn {
+  visibility: visible;
+  cursor: pointer;
+  opacity: 0.7;
+  transform: scale(1);
+}
+
+.profile__avatar-btn::after {
+  content: "Edit Avatar";
+  font-family: "Poppins", "Times New Roman", Times, serif;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  padding-left: 8px;
+  color: white;
+  text-align: right;
+}
+
+.profile__avatar-container {
+  position: relative;
+  margin-right: 20px;
   height: 190px;
   width: 190px;
+}
+
+.profile__avatar {
+  border-radius: 8px;
+  height: 100%;
+  width: 100%
 }
 
 .profile__name {
@@ -33,7 +72,7 @@
 }
 .profile__description {
   margin: 0;
-  font-family: "Poppins", 'Times New Roman', Times, serif;
+  font-family: "Poppins", "Times New Roman", Times, serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1;
@@ -88,10 +127,42 @@
     text-align: center;
     padding-top: 20px;
   }
-  .profile__avatar {
-    margin: 0 0 12px;
+
+  .profile__avatar-btn {
+    visibility: visible;
+    position: absolute;
+    width: 23.34px;
+    height: 23.34px;
+    top: 52px;
+    left: 52px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+    background: rgba(33, 33, 33, 0.6);
+  }
+
+  .profile__avatar-btn:hover {
+    cursor: pointer;
+  }
+
+  .profile__avatar-btn::after {
+    content: "";
+  }
+
+.profile__avatar-container{
+position: relative;
     width: 80px;
     height: 80px;
+}
+
+
+  .profile__avatar {
+    margin: 0 0 12px;
+    width: 100%;
+    height: 100%;
   }
   .profile__name {
     font-size: 20px;
