@@ -28,5 +28,3 @@ This website is deployed by using GitHub Pages.
 Deployment link - https://codepotato4life.github.io/se_project_spots/
 
 Google Drive Video Link - (https://drive.google.com/file/d/1_CC-bOu0VmTcr61BizZ41gZdX1aQe2d7/view?usp=drive_link)
-
-Google Drive Video Link Final - (https://drive.google.com/file/d/1uB4v1T8Jbn-LvAkhpZxsROSFQJjwXs5U/view?usp=drive_link)
